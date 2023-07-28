@@ -1,0 +1,547 @@
+
+@media (min-width: 1024px) {
+  .logo {
+    font-size: 4rem;
+  }
+  .nav-links{
+    font-size: 3.5rem;
+  }
+  .hamburger-icon span {
+    width: 4rem;
+    height: 3px;
+  }
+  .hamburger-icon {
+    height: 34px;
+    width: 50px;
+  }
+  .hamburger-icon,
+  .menu-links {
+    position: relative;
+    left: 80rem;
+  }
+  .menu-links{
+    top: 18rem;
+  }
+  .menu-links a{
+    font-size: 3.5rem;
+    
+  }
+  .menu-links.open {
+    max-height: 383px;
+}
+  .profile {
+   
+    width: 144rem;
+    height: 64rem;
+  }
+  .profile-pic {
+    height: 39rem;
+    width: 42rem;
+    position: relative;
+    left: 27rem;
+  }
+  .profile-column {
+    top: -22rem;
+    width: 65rem;
+    left: 62rem;
+    text-align: center;
+  }
+  .title {
+    font-size: 5.5rem;
+  }
+  .ee {
+    font-size: 2rem;
+  }
+  .downloadCV {
+    width: 12rem;
+    height: 5rem;
+    font-size: 26px;
+  }
+  .contact {
+    width: 12rem;
+    height: 5rem;
+    font-size: 26px;
+    position: relative;
+    left: 1rem;
+  }
+  .icons {
+    width: 11rem;
+    height: 8rem;
+    position: relative;
+    left: 90rem;
+    bottom: 15rem;
+  }
+  .icon1,
+  .icon2 {
+    width: 4rem;
+    height: 4rem;
+  }
+  .icon2 {
+    left: 2rem;
+  }
+  
+  #about {
+  
+    height: 79rem;
+    width: 144rem;
+  }
+  .about-para1{
+    font-size: 2.5rem;
+    
+  }.about-title{
+    font-size: 5rem;
+  }
+  .about-sec{
+    width: 128rem;
+    height: 65rem;
+    
+  }
+  .img2{
+    width: 38rem;
+    height: 46rem;
+    top: 9rem;
+  }
+  .expEdu{
+    position: relative;
+    left: 16rem;
+    bottom: 15rem;
+    
+  }
+  .exper, .Edu{
+    width: 35rem;
+    height: 18rem;
+  }
+  .experienceIcon, .educationIcon{
+    width: 4.5rem;
+    height: 4.5rem;
+    left: 15.5rem
+   
+  }
+  .exph3{
+    font-size: 2rem;
+    left: 12rem;
+  }
+  .expPara{
+    font-size: 1.6rem;
+  }
+  .about-para2{
+    font-size: 1.5rem;
+    width: 79rem;
+    height: 5rem;
+    bottom: 31rem;
+    text-align: center;
+    left: 47rem;
+  }
+  
+
+  #experience {
+   
+      
+       width: 143rem;
+       position: relative;
+       top: 0rem;
+       height: 67rem;
+  }
+  .expP{
+    font-size:3rem;
+  }
+  .expBox1 {
+    height: 35rem;
+    width: 64rem;
+    left: 39rem;
+  }
+  
+  
+
+  .one{
+    font-size: 2rem;
+    left: 4rem;
+  }
+  .expH1{
+    font-size:5rem;
+  }
+  p {
+    font-size: 2rem;
+  }
+  
+  .three{
+    left: 45rem;
+    font-size: 2rem;
+  }
+  .two{
+    position: relative;
+    left: 25rem;
+    font-size: 2rem;
+  }
+  #projects{
+    width: 144rem;
+    height: 53rem;
+  }
+  .proPara{
+    font-size:3rem ;
+
+  }
+  .proH1{
+    font-size: 5rem;
+  }
+  .proBoxes{
+    height: 38rem;
+    width: 141rem;
+  }
+   .proBox1, .proBox2, .proBox3{
+    width: 33rem;
+    height: 28rem;
+    left: 18.5rem;
+  } 
+  .proimg1{
+    height:14rem;
+    width: 30rem;
+    border-radius: 4rem;
+  } 
+  .proH2{
+    top:2.5rem;
+    font-size: 3rem;
+  }
+  .probtn{
+    padding: 15px 47px;
+    left: 11rem;
+    font-size:1.6rem ;
+  }
+  #contact{
+    width: 144rem;
+    height: 50rem;
+  }
+  .contactDiv{
+    left: 40rem;
+    width: 64rem;
+    height: 7rem;
+
+  }
+  .ii{
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  .linkedIcon{
+    left: 7rem;
+  }
+  .LinkedP{
+    left: 9rem;
+  }
+  .emailP{
+    left: 3rem;
+  }
+  .iii{
+    font-size: 33px;
+  }
+
+}
+
+@media (min-width:769px) and (max-width:1023px){
+
+  .hamburger-icon{
+    position: relative;
+    left: 17rem;
+  }
+  .menu-links{
+    position: relative;
+    left: 16rem;
+    top: 5rem;
+  }
+  .profile{
+    width: 75rem;
+  }
+  #about{
+    width: 75rem;
+  }
+  .about-sec{
+    height: 34rem;
+  }
+  .exper, .Edu{
+    width: 16rem;
+  }
+  .experienceIcon, .educationIcon{
+    left: 7rem;
+  }
+  .about-para2{
+    width: 35rem;
+    height: 10rem;
+  }
+  .exph3{
+    left: 5rem;
+  }
+  #experience{
+    width: 75rem;
+  }
+  .expBox1{
+    left: 17rem;
+  }
+  #projects{
+    width: 75rem;
+  }
+  .proBox1, .proBox2, .proBox3{
+    width: 17rem;
+  }
+  .proimg1{
+    width: 14rem;
+  }
+  .probtn{
+    left: 6rem;
+  }
+  #contact{
+    width: 75rem;
+  }
+  .contactDiv{
+    left: 24rem;
+  }
+
+}
+
+
+@media (max-width : 768px) {
+  
+  .hamburger-icon,
+  .menu-links {
+    position: relative;
+    left: 40rem;
+  }
+  .hamburger-icon img {
+    width: 3rem;
+    height: 3rem;
+  }
+  .menu-links {
+    top: 7rem;
+  }
+  .profile {
+   
+    width: 79rem;
+    height: 70rem;
+  }
+  .profile-pic {
+    height: 40rem;
+    width: 43rem;
+    position: relative;
+    left: 16.5rem;
+  }
+  .profile-column {
+    top: 9rem;
+    width: 23rem;
+    left: 26rem;
+    text-align: center;
+  }
+  .downloadCV {
+    width: 10rem;
+    height: 4rem;
+    font-size: 21px;
+  }
+  .contact {
+    width: 10rem;
+    height: 4rem;
+    font-size: 21px;
+    position: relative;
+    left: 1rem;
+  }
+
+  .icons {
+    top: 14rem;
+    left: 35rem;
+  }
+  .icon1,
+  .icon2 {
+    width: 3rem;
+    height: 3rem;
+  }
+  .icon1 {
+    position: relative;
+    right: 1rem;
+  }
+  .icon2 {
+    position: relative;
+    bottom: 3.3rem;
+    left: 4rem;
+  }
+
+  .section-text-p,
+  .title,
+  .section-text-p2 {
+    font-size: 3.2rem;
+    text-align: center;
+  }
+  .logo {
+    font-size: 2.7rem;
+  }
+  #about {
+    
+    width: 79rem;
+    position: relative;
+    top: 12rem;
+    height: 112rem;
+  }
+ 
+  .experienceIcon,
+  .educationIcon {
+    position: relative;
+    left: 16rem;
+    width: 3rem;
+    height: 3rem;
+  }
+  .exph3 {
+    position: relative;
+    left: 13rem;
+  }
+  .img2 {
+    width: 31rem;
+    height: 35rem;
+    position: relative;
+    left: 24rem;
+  }
+  .expEdu {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+   
+    width: 10rem;
+  }
+  .exper,
+  .Edu {
+    position: relative;
+    top: 10rem;
+    width: 37rem;
+    height: 16rem;
+  }
+  .exper {
+    position: relative;
+    left: 34rem;
+  }
+  .Edu {
+    position: relative;
+    left: 34rem;
+  }
+  .about-para2 {
+    position: relative;
+    top: 14rem;
+    left: 8rem;
+    text-align: center;
+    width: 66rem;
+    font-size: 20px;
+  }
+
+  #experience {
+  
+    width: 79rem;
+    position: relative;
+    top: 17rem;
+    height: 52rem;
+  }
+  .expBox1 {
+    height: 34rem;
+    width: 49rem;
+    left: 16rem;
+  }
+  
+  .one,
+  .two,
+  .three {
+    gap: 2rem;
+  }
+
+  .one,
+  h3,
+  .expPara2,
+  p {
+    font-size: 2rem;
+  }
+  .two,
+  .three {
+    font-size: 2rem;
+  }
+
+  #projects {
+   
+    
+    width: 79rem;
+    height: 90rem;
+    position: relative;
+    top: 20rem;
+  }
+
+  .proBoxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    
+    left: 13rem;
+    top: 2rem;
+    height: 80rem;
+    align-items: center;
+    width: 55rem;
+
+   
+  }
+  
+  .proBox1,
+  .proBox2,
+  .proBox3 {
+    width: 47rem;
+    position: static;
+  }
+  .proBox1 img {
+    height: 300px;
+  }
+  .proBox2 img {
+    height: 300px;
+  }
+  .proBox3 img {
+    height: 300px;
+  }
+  .probtn {
+    position: relative;
+    left: 27rem;
+    top: -11rem;
+   
+    height: 3rem;
+    width: 7rem;
+    font-size: 1.3rem;
+  }
+  .proH2 {
+    font-size: 3rem;
+    position: relative;
+    left: 23rem;
+    width: 14rem;
+    
+    gap: 3rem;
+    top: -17rem;
+  }
+
+  #contact {
+    
+    width: 79rem;
+    position: relative;
+    top: 30rem;
+  }
+  .contactDiv {
+    width: 49rem;
+    height: 6rem;
+    position: relative;
+    left: 15rem;
+  }
+
+  .linkedIcon,
+  .emailIcon {
+    width: 3rem;
+    height: 3rem;
+  }
+  .iii {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+}

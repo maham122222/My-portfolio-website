@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maham's Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Maham Jamil</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Maham Jamil</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a class="li" href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <section class="profile">
+
+      <img src="img/maham picture.jpeg" class="profile-pic" alt="profilepic" />
+
+      <div class="profile-column">
+        <p class="section__text__p1 ee">Hello, I'm</p>
+        <h1 class="title">Maham Jamil</h1>
+        <p class="section__text__p2 ee" >Computer Science Student</p>
+        <div class="button">
+          <button class="downloadCV btn">Download CV</button>
+          <button onclick="location.href='#contact'" class="contact btn">Contact info</button>
+        </div>
+      </div>
+
+      <div class="icons">
+        <img
+          src="img/github.png"
+          alt="github"
+          class="icon1"
+          onclick="location.href='https://github.com/maham122222'"
+        />
+        <img
+          src="img/linkedin (3).png"
+          alt="linkedin"
+          class="icon2"
+          onclick=" location.href='https://www.linkedin.com/in/maham-jamil-4a03b0238/'"
+        />
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section id="about">
+      <p class="about-para1">Get to know me</p>
+      <h1 class="about-title">About Me</h1>
+
+      <div class="about-sec">
+        <img src="img/maham-blackandWhite4.jpg" class="img2" alt="" />
+        <div class="expEdu">
+          <div class="exper">
+            <img
+              src="img/experience.png"
+              alt="experienceIcon"
+              class="experienceIcon"
+            />
+            <h3 class="exph3">Experience</h3>
+            <p class="expPara">3 months <br />Quality Assurance</p>
+          </div>
+          <div class="Edu">
+            <img
+              src="img/education.png"
+              alt="educationIcon"
+              class="educationIcon"
+            />
+            <h3 class="exph3">Education</h3>
+            <p class="expPara">BSCS Bachelors Degree <br />(2020-2024)</p>
+          </div>
+        </div>
+        <div class="about-para2">
+          I am a computer science student with a strong proficiency in frontend
+          web development, specializing in ReactJS framework. With expertise in
+          HTML, CSS, and JavaScript, I can create captivating user interfaces
+          and deliver seamless web experiences. In addition to frontend
+          development, I possess a solid grasp of C++ and Python, enabling me to
+          develop projects in diverse domains. Whether it's crafting web
+          applications with ReactJS or tackling complex problem-solving tasks
+          with C++ and Python and I also bring valuable experience in quality
+          assurance, I thrive on continuous learning and enjoy exploring the
+          vast possibilities of computer science. My passion for technology
+          drives me to create innovative and impactful projects.
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section  -->
+    <section id="experience">
+      <p class="expP">Explore my</p>
+      <h1 class="expH1">Experience</h1>
+
+      <div class="expBox1">
+        <article class="one">
+          <div>
+            <img src="img/tick.png" class="tick" alt="" />
+            <h3 class="expH3">HTML</h3>
+            <p class="expPara2">Experienced</p>
+          </div>
+          <div>
+            <img src="img/tick.png" class="tick" alt="" />
+            <h3 class="expH3">CSS</h3>
+            <p class="expPara2">Experienced</p>
+          </div>
+          <div>
+            <img src="img/tick.png" class="tick" alt="" />
+            <h3 class="expH3">JavaScript</h3>
+            <p class="expPara2">Intermediate</p>
+          </div>
+        </article>
+        <article class="two">
+          <div>
+            <img src="img/tick.png" class="tick" />
+            <h3 class="expH3">C++</h3>
+            <p class="expPara2">Intermediate</p>
+          </div>
+          <div>
+            <img src="img/tick.png" class="tick" alt="" />
+            <h3 class="expH3">PYTHON</h3>
+            <p class="expPara2">Intermediate</p>
+          </div>
+          <div>
+            <img src="img/tick.png" class="tick" alt="" />
+            <h3 class="expH3">SQL</h3>
+            <p class="expPara2">Basic</p>
+          </div>
+        </article>
+        <article class="three">
+          <div>
+            <img src="img/tick.png" class="tick" alt="" />
+            <h3 class="expH3">C</h3>
+            <p class="expPara2">Intermediate</p>
+          </div>
+          <div>
+            <img src="img/tick.png" class="tick" alt="" />
+            <h3 class="expH3">ReactJS</h3>
+            <p class="expPara2">Basic</p>
+          </div>
+          <div>
+            <img src="img/tick.png" class="tick" alt="" />
+            <h3 class="expH3">NodeJS</h3>
+            <p class="expPara2">Basic</p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- Project Section -->
+    <section id="projects">
+      <p class="proPara">Browse My Recent</p>
+      <h1 class="proPara proH1">Projects</h1>
+
+      <div class="proBoxes">
+        <div class="proBox1">
+          <div class="proimg">
+            <img src="img/pro1.PNG" alt="" class="proimg1" />
+          </div>
+          <h2 class="proH2">Project 1</h2>
+          <button class="probtn">GitHub</button>
+        </div>
+        <div class="proBox2">
+          <div class="proimg">
+            <img src="img/pro2.PNG" alt="" class="proimg1" />
+          </div>
+          <h2 class="proH2">Project 2</h2>
+          <button class="probtn">GitHub</button>
+        </div>
+        <div class="proBox3">
+          <div class="proimg">
+            <img src="img/pro3.PNG" alt="" class="proimg1" />
+          </div>
+          <h2 class="proH2">Project 3</h2>
+          <button class="probtn">GitHub</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section -->
+
+    <section id="contact">
+      <p class="proPara">Get in Touch</p>
+      <h1 class="proPara proH1">Contact Me</h1>
+      <div class="contactDiv">
+        <img src="img/email.png" alt="" class="emailIcon ii" 
+        onclick=" location.href='https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzBlDWDfpMhmbpnZJPbNXRSgwRZHPbTnGzqvBhXnxpZhMcgpTHjMbBlrQpCfprcQpbskmQZ'" />
+        <p class="emailP iii" >jamilmaham944@gmail.com</p>
+        <img src="img/linkedin (3).png" alt="" class="linkedIcon ii"  onclick=" location.href='https://www.linkedin.com/in/maham-jamil-4a03b0238/'"/>
+        <p class="LinkedP iii">LinkedIn</p>
+      </div>
+
+      <div class="menu2">
+        <nav id="desktop-nav">
+           
+            <div>
+              <ul class="nav-links link3">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
