@@ -1,4 +1,4 @@
-
+/* 
 @media (min-width: 1024px) {
   .logo {
     font-size: 4rem;
@@ -234,9 +234,9 @@
     font-size: 33px;
   }
 
-}
+} */
 
-@media (min-width:769px) and (max-width:1023px){
+/* @media (min-width:769px) and (max-width:1023px){
 
   .hamburger-icon{
     position: relative;
@@ -294,7 +294,7 @@
     left: 24rem;
   }
 
-}
+} */
 
 
 @media (max-width : 768px) {
